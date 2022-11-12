@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "@juggle/resize-observer": "^3.4.0",
+    "@react-spring/animated": "^9.5.5",
+    "@react-spring/core": "^9.5.5",
+    "@react-spring/shared": "^9.5.5",
     "@react-spring/three": "^9.5.5",
     "@react-spring/web": "^9.5.5",
     "@react-three/drei": "^9.40.0",
