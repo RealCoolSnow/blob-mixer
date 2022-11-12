@@ -1,6 +1,6 @@
 import { useEffect, useRef, useCallback } from 'react'
 import { useProgress } from '@react-three/drei'
-import { useSpring, config } from 'react-spring/web'
+import { useSpring, config } from '@react-spring/web'
 
 export default function Loader({
   containerStyles,

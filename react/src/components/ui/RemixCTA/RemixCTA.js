@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from "react-router-dom";
 import { addEffect } from 'react-three-fiber'
-import { a, useSpring } from 'react-spring/web'
+import { a, useSpring } from '@react-spring/web'
 
 import { useUIStore } from '../../../store'
 

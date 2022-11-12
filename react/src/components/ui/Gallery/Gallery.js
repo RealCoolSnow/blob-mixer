@@ -3,8 +3,8 @@ import { MathUtils } from 'three'
 import { useGesture } from 'react-use-gesture'
 
 import { useUIStore, updateBlobState } from '../../../store'
-import RemixCTA from '../RemixCTA/'
-import Pagination from '../Pagination/'
+import RemixCTA from '../RemixCTA/RemixCTA'
+import Pagination from '../Pagination/Pagination'
 
 
 export default function Gallery() {

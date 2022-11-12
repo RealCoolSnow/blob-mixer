@@ -3,14 +3,14 @@ import { MathUtils } from 'three';
 // import { Sky } from '@react-three/drei'
 import { useThree, useFrame } from 'react-three-fiber'
 import { useControl } from 'react-three-gui';
-import { useSpring } from 'react-spring/three'
+import { useSpring } from '@react-spring/three'
 
 import { useUIStore } from '../../store'
 import useQueryState from '../../useQueryState'
 
 import Lights from './Lights'
-import Blob from './Blob'
-import TextCarousel, { TextTitle } from './TextCarousel'
+import Blob from './Blob/Blob'
+import TextCarousel, { TextTitle } from './TextCarousel/TextCarousel'
 import PostProcess from './PostProcess'
 import Screenshot from './Screenshot'
 

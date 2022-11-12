@@ -3,7 +3,7 @@ import { useUpdate } from 'react-three-fiber'
 import { CameraHelper, SpotLightHelper } from 'three'
 import { useHelper } from '@react-three/drei'
 import { useControl } from 'react-three-gui';
-import { a, useSpring } from 'react-spring/three'
+import { a, useSpring } from '@react-spring/three'
 
 import useQueryState from '../../useQueryState'
 import { useUIStore } from '../../store'

@@ -1,7 +1,7 @@
 import { useCallback, useEffect } from 'react'
 import classNames from 'classnames/bind'
-import { useTransition } from 'react-spring/three'
-import { a } from 'react-spring/web'
+import { useTransition } from '@react-spring/three'
+import { a } from '@react-spring/web'
 
 import { useUIStore } from '../../../store'
 

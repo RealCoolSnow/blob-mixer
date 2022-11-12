@@ -4,7 +4,7 @@ import { /*Shape, ShapeBufferGeometry,*/ WebGLCubeRenderTarget, Vector3, Quatern
 import { useThree, useFrame, extend } from 'react-three-fiber'
 // import { RayGrab } from '@react-three/xr'
 import { useControl } from 'react-three-gui';
-import { a, useSpring } from 'react-spring/three'
+import { a, useSpring } from '@react-spring/three'
 import mergeRefs from 'react-merge-refs'
 
 // Local components
